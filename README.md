@@ -1,0 +1,2 @@
+This is a mockup bakery website with a really cool intro webpage that I love. 
+I plan to add a billing system using PHP and SQL that can take in orders from users and calculate the final bill down the line.

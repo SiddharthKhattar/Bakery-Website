@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <meta charset="UTF-8">
+    <title> About Us </title>    
+</head>
+
+<body>
+
+<div class="header">
+    <ol class="headermain">
+        <li class="firstone"> <a class="one" href="index.html"> HOME </a>  </li>
+        <li class="secondtwo"> <a class="two" href="FoodMenu.html"> MENU  </a> </li>
+        <li class="thirdthree"> <a class="three" href="AboutUs.html"> ABOUT </a> </li> 
+        <!-- <li class="fourthfour" > <a class="four" href=" "> REGISTER/LOG-IN </a> </li> -->
+    </ol>
+</div>
+
+<div class="firstpage">
+    <div class="firstpageleft">
+        <img class="stevejobs" src="Images/SteveJobs.jpg">
+    </div>
+    <div class="firstpageright">
+        <div class="firstpagerighttop">
+            <h1> Founded By Steve Jobs After He Left Apple </h1>  
+        </div>
+        <div class="firstpagerightbottom">
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. 
+        </div>
+    </div>
+</div>
+
+<div class="breaker">   </div>
+
+<div class="secondpage">
+    <div class="secondpageleft">
+            <div class="secondpagelefttop"> 
+                <h1> Humble Beginnings </h1>  
+            </div>
+            <div class="secondpageleftbottom"> 
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.   
+            </div>
+    </div>        
+    <div class="secondpageright">
+            <img class="TimCook" src="Images/TimCook.jpg">  
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<style>
+
+html,body{
+    margin: 0;
+    padding: 0;
+   /* background: radial-gradient(#0178ee,#870aec,#2e8db9);
+    background-size: 400% 400%; */
+}    
+
+canvas {
+  width: 1080px;
+  height: 50px;  
+  background-color: black;
+}
+
+img{
+    width: 330px;
+    height: 200px;
+    border-radius: 10px;
+  /*  border-color: blue;
+    border-style: solid; */
+}
+
+li{
+  list-style-type: none;
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+
+a:link{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a:visited{
+  color: aliceblue;
+  text-decoration: none; 
+}
+
+/* Header Properties */
+
+.header {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: left;
+  font-size:xx-large;
+  font-weight: bold;
+  height: 72px; 
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(#0178ee,#870aec,#2e8db9);
+  background-size: 400% 400%;
+  color: white;
+/*  border: 3px black solid;
+  border-radius: 10px; */
+}
+
+.headermain{
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.one:hover{
+    animation: purpley 3s infinite alternate;
+}
+
+@keyframes purpley{
+    0%{color:#ff0099;}
+    100%{color:#a656f7;}
+}
+
+.two:hover{
+    animation: redish 2s infinite alternate; 
+}
+
+@keyframes redish{
+    0%{color:#e52d27;}
+    100%{color:#F45C43;}
+}
+
+.three:hover{
+    transition: 0.5s;
+    animation: greenish  2s infinite alternate;
+}
+
+@keyframes bluish {
+    0% { color:#9cecfb; }
+  50%{ color: #65c7f7;}
+  100%{ color: #0052d4; }
+}
+
+@keyframes greenish{
+   0% { color:#81f791; }
+  50%{ color: #8ef00f;}
+  100%{ color: #3eac6b; }
+
+}
+
+
+
+
+
+
+/* Below are first page specific characteristics */
+
+.firstpage{
+    display: flex;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.firstpageleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-content: center;
+    align-items: center;
+    align-self: center; 
+    padding-right: 200px; 
+    
+}
+
+.firstpageright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+/* Below are breaker characteristics */
+
+.breaker{
+    height: 10px;
+    overflow:auto;
+    background: linear-gradient(to left,#bbd2c5, #536976, #292e49);
+    border: 2px solid black;
+
+}
+
+
+
+/*Below are second page requirements */
+
+.secondpage{
+    display: flex;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    color: white;
+}
+
+.secondpageright{
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-content: center;
+    align-items: center;
+    align-self: center; 
+
+}
+
+.secondpageleft{
+    display: flex;
+    flex-direction: column;
+}
+
+.secondpagelefttop{
+    display: flex;
+    flex-direction: column;
+}
+
+.secondpageleftbottom{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+</style> 
+ 
+
+
+
+
+
